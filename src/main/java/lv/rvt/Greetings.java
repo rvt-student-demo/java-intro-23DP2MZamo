@@ -2,13 +2,15 @@ package lv.rvt;
 
 import java.util.Scanner;
 
-public class MessageThreeTimes {
+public class Greetings {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Write a message: ");
+        System.out.println("What is your name? ");
+
         String message = scanner.nextLine();
-        System.out.println(message + message + message);
+
+        System.out.println("Hi, " + message);
     }
 }
