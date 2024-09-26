@@ -2,7 +2,7 @@ package lv.rvt;
 
 import java.util.Scanner;
 
-public class multiplicationformula {
+public class avarageoftwonumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class multiplicationformula {
         int first = Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
         int second = Integer.valueOf(scanner.nextLine());
-        int formula = first * second;
-        System.out.println( first + " * " + second + " = " + formula);
+        double formula = (first + second) / 2.0;
+        System.out.println(" The average is:  " + formula);
     }
 }
