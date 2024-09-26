@@ -2,7 +2,7 @@ package lv.rvt;
 
 import java.util.Scanner;
 
-public class sumofthreenumbers {
+public class additionformula {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,8 +10,7 @@ public class sumofthreenumbers {
         int first = Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
         int second = Integer.valueOf(scanner.nextLine());
-        System.out.println("Give the fird number: ");
-        int thirdNumber = Integer.valueOf(scanner.nextLine());
-        System.out.println("The sum of the numbers is " + (first + second + thirdNumber));
+        int formula = first + second;
+        System.out.println( first + " + " + second + " = " + formula);
     }
 }
