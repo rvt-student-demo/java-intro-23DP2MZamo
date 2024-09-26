@@ -2,13 +2,13 @@ package lv.rvt;
 
 import java.util.Scanner;
 
-public class orwell {
+public class ancient {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Give a number: ");
+        System.out.println("Give a year: ");
         int number = Integer.valueOf(scanner.nextLine());
-        if (number == 1984) {
-            System.out.println("Orwell");
+        if (number < 2015) {
+            System.out.println("Ancient history!");
         }
     }
 }
