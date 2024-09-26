@@ -2,7 +2,7 @@ package lv.rvt;
 
 import java.util.Scanner;
 
-public class additionformula {
+public class multiplicationformula {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class additionformula {
         int first = Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
         int second = Integer.valueOf(scanner.nextLine());
-        int formula = first + second;
-        System.out.println( first + " + " + second + " = " + formula);
+        int formula = first * second;
+        System.out.println( first + " * " + second + " = " + formula);
     }
 }
