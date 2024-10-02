@@ -2,15 +2,15 @@ package lv.rvt;
 
 import java.util.Scanner;
 
-public class positivity {
+public class adulthood {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Give a number: ");
+        System.out.println("How old are you? ");
         int number = Integer.valueOf(scanner.nextLine());
-        if (number < 0) {
-            System.out.println("Your number is negative");
+        if (number < 18) {
+            System.out.println("You are not an adult");
         } else {
-            System.out.println("Your number is positive");
+            System.out.println("you are an adult");
     }
     }
 }
