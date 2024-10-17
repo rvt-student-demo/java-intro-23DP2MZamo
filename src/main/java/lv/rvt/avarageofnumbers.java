@@ -2,12 +2,12 @@ package lv.rvt;
 
 import java.util.Scanner;
 
-public class numberndsumofnumbers {
+public class avarageofnumbers {
     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
         int count = 0;
     int summa = 0;
-
+        int avarage = 0;
         while(true){
 
             System.out.println("Give a number: ");
@@ -20,10 +20,10 @@ public class numberndsumofnumbers {
             else {
                 summa = summa + number;
                 count++;
+                avarage = summa / count;
             }
 
 }
-        System.out.println("Number of numbers: " + count);
-        System.out.println("Sum of numbers: " + summa);
+        System.out.println("Avarage of numbers: " + avarage);
     }
 }
