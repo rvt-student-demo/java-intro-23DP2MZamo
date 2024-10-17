@@ -2,10 +2,10 @@ package lv.rvt;
 
 import java.util.Scanner;
 
-public class sumofnumbers {
+public class numberndsumofnumbers {
     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
-
+        int count = 0;
     int summa = 0;
 
         while(true){
@@ -19,10 +19,11 @@ public class sumofnumbers {
             }
             else {
                 summa = summa + number;
+                count++;
             }
 
 }
-        
+        System.out.println("Number of numbers: " + count);
         System.out.println("Sum of numbers: " + summa);
     }
 }
