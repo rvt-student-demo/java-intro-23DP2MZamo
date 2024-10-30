@@ -1,8 +1,8 @@
-package lv.rvt
+package lv.rvt;
 
 public class Account{
     private double balance;
-    private string owner;
+    private String owner;
 
     public Account(String owner, double balance){
         this.balance = balance;
@@ -10,7 +10,7 @@ public class Account{
     }
 
     public void deposit(double amount){
-        this.balance = this.balance + amount
+        this.balance = this.balance + amount;
     }
 
     public void withdrawal(double amount){
@@ -23,6 +23,6 @@ public class Account{
     
     @Override
     public String toString(){
-        return this.owner + "balance: " + this.balance;
+        return this.owner + " balance: " + this.balance;
     }
 }
