@@ -6,13 +6,13 @@ public class repeatbreaketc {
     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
         int count = 0;
-        int summa = 0;
+        double summa = 0;
         double avarage = 0;
         int even = 0;
         int odd = 0;
         System.out.println("Give numbers: ");
         while(true){
-            int number = Integer.valueOf(scan.nextLine());
+            double number = Integer.valueOf(scan.nextLine());
 
             if (number == -1){
                 break;
